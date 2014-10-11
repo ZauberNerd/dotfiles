@@ -1,0 +1,29 @@
+[color]
+	ui = auto
+[user]
+	name = ZauberNerd
+	email = zaubernerd@zaubernerd.de
+[credential]
+	helper = cache --timeout=3600
+[alias]
+	stat = status
+	df = diff -p
+	st = status
+	b = branch
+	br = branch
+	r = remote
+	lg = log -p
+	hist = log --oneline --graph --decorate
+	publish = !sh -c 'git push origin HEAD:refs/publish/$1' -
+	draft = !sh -c 'git push origin HEAD:refs/drafts/$1' -
+[branch]
+	autosetuprebase = always
+[core]
+	autocrlf = false
+	editor = vim
+[merge]
+	keepBackup = false
+[push]
+	default = simple
+[pull]
+	rebase = true
