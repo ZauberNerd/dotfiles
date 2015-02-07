@@ -130,3 +130,4 @@ export GOROOT
 
 # git completion for gerrit (publish / draft)
 source ~/.git-completion.sh
+source ~/.npm-completion.sh
