@@ -37,9 +37,6 @@ export EDITOR="vim";
 # make some commands not show up in history
 export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help";
 
-# always enable colored `grep` output
-export GREP_OPTIONS="--color=auto";
-
 
 
 # --- aliases ---
