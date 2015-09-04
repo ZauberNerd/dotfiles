@@ -121,12 +121,10 @@ function json() {
 
 # --- path additions ---
 GOPATH=$HOME/workspace/go
-GOROOT=/usr/local/go
-PATH=$PATH:$HOME/.local/bin:$HOME/bin:/usr/local/go/bin:$GOPATH/bin:$HOME/opt/bin
+PATH=$PATH:$HOME/.local/bin:$HOME/bin:$GOPATH/bin:$HOME/opt/bin:/usr/local/go_appengine
 
 export PATH
 export GOPATH
-export GOROOT
 
 
 # git completion for gerrit (publish / draft)

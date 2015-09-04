@@ -13,6 +13,7 @@
 	br = branch
 	r = remote
 	lg = log -p
+    pr = !sh -c '/usr/local/bin/hub pull-request' -
 	hist = log --oneline --graph --decorate
 	publish = !sh -c 'git push origin HEAD:refs/publish/$1' -
 	draft = !sh -c 'git push origin HEAD:refs/drafts/$1' -
